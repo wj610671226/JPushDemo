@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E80FA1D1CC7326700B94497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA1C1CC7326700B94497 /* AppDelegate.swift */; };
+		1E80FA1F1CC7326700B94497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E80FA1E1CC7326700B94497 /* ViewController.swift */; };
+		1E80FA221CC7326700B94497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E80FA201CC7326700B94497 /* Main.storyboard */; };
+		1E80FA241CC7326700B94497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E80FA231CC7326700B94497 /* Assets.xcassets */; };
+		1E80FA271CC7326700B94497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E80FA251CC7326700B94497 /* LaunchScreen.storyboard */; };
+		1E80FA311CC732F000B94497 /* jpush-ios-2.1.6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA2F1CC732F000B94497 /* jpush-ios-2.1.6.a */; };
+		1E80FA381CC764F200B94497 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA371CC764F200B94497 /* CFNetwork.framework */; };
+		1E80FA3A1CC764FD00B94497 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA391CC764FD00B94497 /* CoreFoundation.framework */; };
+		1E80FA3C1CC7650B00B94497 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA3B1CC7650B00B94497 /* CoreTelephony.framework */; };
+		1E80FA3E1CC7651400B94497 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA3D1CC7651400B94497 /* SystemConfiguration.framework */; };
+		1E80FA401CC7651F00B94497 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA3F1CC7651E00B94497 /* CoreGraphics.framework */; };
+		1E80FA421CC7652800B94497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA411CC7652800B94497 /* Foundation.framework */; };
+		1E80FA441CC7653200B94497 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA431CC7653200B94497 /* UIKit.framework */; };
+		1E80FA461CC7653C00B94497 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA451CC7653C00B94497 /* Security.framework */; };
+		1E80FA481CC7655000B94497 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80FA471CC7655000B94497 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E80FA191CC7326700B94497 /* JPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E80FA1C1CC7326700B94497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E80FA1E1CC7326700B94497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E80FA211CC7326700B94497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E80FA231CC7326700B94497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E80FA261CC7326700B94497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E80FA281CC7326700B94497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E80FA2F1CC732F000B94497 /* jpush-ios-2.1.6.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.6.a"; sourceTree = "<group>"; };
+		1E80FA301CC732F000B94497 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		1E80FA321CC733E000B94497 /* JPushDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JPushDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E80FA371CC764F200B94497 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1E80FA391CC764FD00B94497 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1E80FA3B1CC7650B00B94497 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1E80FA3D1CC7651400B94497 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1E80FA3F1CC7651E00B94497 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E80FA411CC7652800B94497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E80FA431CC7653200B94497 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E80FA451CC7653C00B94497 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1E80FA471CC7655000B94497 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E80FA161CC7326700B94497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA481CC7655000B94497 /* libz.tbd in Frameworks */,
+				1E80FA461CC7653C00B94497 /* Security.framework in Frameworks */,
+				1E80FA441CC7653200B94497 /* UIKit.framework in Frameworks */,
+				1E80FA421CC7652800B94497 /* Foundation.framework in Frameworks */,
+				1E80FA401CC7651F00B94497 /* CoreGraphics.framework in Frameworks */,
+				1E80FA3E1CC7651400B94497 /* SystemConfiguration.framework in Frameworks */,
+				1E80FA3C1CC7650B00B94497 /* CoreTelephony.framework in Frameworks */,
+				1E80FA3A1CC764FD00B94497 /* CoreFoundation.framework in Frameworks */,
+				1E80FA381CC764F200B94497 /* CFNetwork.framework in Frameworks */,
+				1E80FA311CC732F000B94497 /* jpush-ios-2.1.6.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E80FA101CC7326700B94497 = {
+			isa = PBXGroup;
+			children = (
+				1E80FA1B1CC7326700B94497 /* JPushDemo */,
+				1E80FA1A1CC7326700B94497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E80FA1A1CC7326700B94497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA191CC7326700B94497 /* JPushDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E80FA1B1CC7326700B94497 /* JPushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA1C1CC7326700B94497 /* AppDelegate.swift */,
+				1E80FA1E1CC7326700B94497 /* ViewController.swift */,
+				1E80FA201CC7326700B94497 /* Main.storyboard */,
+				1E80FA231CC7326700B94497 /* Assets.xcassets */,
+				1E80FA251CC7326700B94497 /* LaunchScreen.storyboard */,
+				1E80FA281CC7326700B94497 /* Info.plist */,
+				1E80FA321CC733E000B94497 /* JPushDemo-Bridging-Header.h */,
+				1E80FA361CC7623100B94497 /* Frameworks */,
+				1E80FA2E1CC732EF00B94497 /* lib */,
+			);
+			path = JPushDemo;
+			sourceTree = "<group>";
+		};
+		1E80FA2E1CC732EF00B94497 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA2F1CC732F000B94497 /* jpush-ios-2.1.6.a */,
+				1E80FA301CC732F000B94497 /* JPUSHService.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1E80FA361CC7623100B94497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E80FA471CC7655000B94497 /* libz.tbd */,
+				1E80FA451CC7653C00B94497 /* Security.framework */,
+				1E80FA431CC7653200B94497 /* UIKit.framework */,
+				1E80FA411CC7652800B94497 /* Foundation.framework */,
+				1E80FA3F1CC7651E00B94497 /* CoreGraphics.framework */,
+				1E80FA3D1CC7651400B94497 /* SystemConfiguration.framework */,
+				1E80FA3B1CC7650B00B94497 /* CoreTelephony.framework */,
+				1E80FA391CC764FD00B94497 /* CoreFoundation.framework */,
+				1E80FA371CC764F200B94497 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E80FA181CC7326700B94497 /* JPushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E80FA2B1CC7326700B94497 /* Build configuration list for PBXNativeTarget "JPushDemo" */;
+			buildPhases = (
+				1E80FA151CC7326700B94497 /* Sources */,
+				1E80FA161CC7326700B94497 /* Frameworks */,
+				1E80FA171CC7326700B94497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPushDemo;
+			productName = JPushDemo;
+			productReference = 1E80FA191CC7326700B94497 /* JPushDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E80FA111CC7326700B94497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jhtwl;
+				TargetAttributes = {
+					1E80FA181CC7326700B94497 = {
+						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1E80FA141CC7326700B94497 /* Build configuration list for PBXProject "JPushDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E80FA101CC7326700B94497;
+			productRefGroup = 1E80FA1A1CC7326700B94497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E80FA181CC7326700B94497 /* JPushDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E80FA171CC7326700B94497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA271CC7326700B94497 /* LaunchScreen.storyboard in Resources */,
+				1E80FA241CC7326700B94497 /* Assets.xcassets in Resources */,
+				1E80FA221CC7326700B94497 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E80FA151CC7326700B94497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E80FA1F1CC7326700B94497 /* ViewController.swift in Sources */,
+				1E80FA1D1CC7326700B94497 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E80FA201CC7326700B94497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E80FA211CC7326700B94497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E80FA251CC7326700B94497 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E80FA261CC7326700B94497 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E80FA291CC7326700B94497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E80FA2A1CC7326700B94497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E80FA2C1CC7326700B94497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhong Min Wu (JXDTX4Y635)";
+				INFOPLIST_FILE = JPushDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JPushDemo/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61e20ae7-77b6-4d13-9a76-52677a2e87f7";
+				SWIFT_OBJC_BRIDGING_HEADER = "JPushDemo/JPushDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E80FA2D1CC7326700B94497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhong Min Wu (JXDTX4Y635)";
+				INFOPLIST_FILE = JPushDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JPushDemo/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "61e20ae7-77b6-4d13-9a76-52677a2e87f7";
+				SWIFT_OBJC_BRIDGING_HEADER = "JPushDemo/JPushDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E80FA141CC7326700B94497 /* Build configuration list for PBXProject "JPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80FA291CC7326700B94497 /* Debug */,
+				1E80FA2A1CC7326700B94497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E80FA2B1CC7326700B94497 /* Build configuration list for PBXNativeTarget "JPushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E80FA2C1CC7326700B94497 /* Debug */,
+				1E80FA2D1CC7326700B94497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E80FA111CC7326700B94497 /* Project object */;
+}
